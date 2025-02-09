@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-
+    implementation (libs.io.coil.kt.coil)
     implementation (libs.androidx.recyclerview) // RecyclerView
     implementation (libs.glide) // Glide для загрузки изображений
     implementation (libs.retrofit) // Retrofit для запросов

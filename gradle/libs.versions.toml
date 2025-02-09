@@ -1,5 +1,6 @@
 [versions]
 agp = "8.8.0"
+coilKtCoil = "2.5.0"
 glide = "4.16.0"
 kotlin = "1.9.24"
 coreKtx = "1.15.0"
@@ -18,6 +19,7 @@ androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = 
 androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+io-coil-kt-coil = { module = "io.coil-kt:coil", version.ref = "coilKtCoil" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
